@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hw01</title>
 </head>
+
 <body>
-    <script src="/script/script1.js"></script>
+    <script>
+        let imya = prompt("Как Вас зовут?");
+        alert("Привет, " + imya + "!");
+        let gr = prompt("В каком году Вы родились?");
+        const g = 2021;
+        x = g - gr;
+        alert("Вам " + x + " лет");
+        let stor = prompt("Введите длину стороны квадрата, см");
+        perimetr = stor * 4;
+        alert("Периметр квадрата составляет " + perimetr + " см ");
+        let r = prompt("Введите радиус круга, см");
+        п = 3.14;
+        s = п * r ** 2;
+        alert("Площадь круга составляет " + s + " см 2 ");
+        let rasst = prompt("Введите расстояние между городами, км");
+        let vrem = prompt("За сколько часов хотите добраться?");
+        v = rasst / vrem;
+        alert("Ваша скорость должна быть не менее " + v + "  км/ч")
+
+    </script>
 </body>
+
 </html>
